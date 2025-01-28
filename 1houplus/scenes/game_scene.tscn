@@ -1,8 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://bylnyc48r4ik"]
+[gd_scene load_steps=2 format=3 uid="uid://c5a2wd0vfa6ou"]
 
 [ext_resource type="Script" path="res://gendonj.gd" id="1_ynets"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_ynets")
-
-[node name="Node" type="Node" parent="."]
