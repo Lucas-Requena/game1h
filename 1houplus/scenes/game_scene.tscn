@@ -1,6 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5a2wd0vfa6ou"]
+[gd_scene load_steps=3 format=3 uid="uid://c5a2wd0vfa6ou"]
 
-[ext_resource type="Script" path="res://gendonj.gd" id="1_ynets"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
 
-[node name="Node2D" type="Node2D"]
-script = ExtResource("1_ynets")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(32, 32)
+
+[node name="GameScene" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(100, 100)
+script = ExtResource("1_player")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("RectangleShape2D_1")
