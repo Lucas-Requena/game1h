@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://dkogbrfhthq62"]
 
-[ext_resource type="Texture2D" path="res://BaseCharacter/idle.png" id="1_xek4v"]
+[ext_resource type="Texture2D" uid="uid://d22l105tfodmb" path="res://BaseCharacter/idle.png" id="1_xek4v"]
 
 [sub_resource type="GDScript" id="GDScript_75ppi"]
 script/source = "extends CharacterBody2D
@@ -76,7 +76,7 @@ script = SubResource("GDScript_75ppi")
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_xo2ll")
 animation = &"idle"
-frame_progress = 0.934768
+frame_progress = 0.501144
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 0)
