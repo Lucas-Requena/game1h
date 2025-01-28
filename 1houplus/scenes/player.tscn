@@ -31,19 +31,15 @@ func _physics_process(delta: float) -> void:
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oxn61"]
-atlas = ExtResource("1_xek4v")
 region = Rect2(0, 80, 80, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1yfv"]
-atlas = ExtResource("1_xek4v")
 region = Rect2(80, 80, 80, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_50oyk"]
-atlas = ExtResource("1_xek4v")
 region = Rect2(160, 80, 80, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sn0fx"]
-atlas = ExtResource("1_xek4v")
 region = Rect2(240, 80, 80, 80)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xo2ll"]
