@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqvj2djm1mbhd"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_lxt0a"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_4hhuw"]
+distance = -49.0
+
+[node name="StaticBody2D" type="StaticBody2D"]
+position = Vector2(0, 5)
+physics_material_override = SubResource("PhysicsMaterial_lxt0a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("WorldBoundaryShape2D_4hhuw")

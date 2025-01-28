@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cewudvc0qobf1"]
+
+[ext_resource type="PackedScene" uid="uid://dkogbrfhthq62" path="res://scenes/player.tscn" id="1_ef6kw"]
+[ext_resource type="PackedScene" uid="uid://bqvj2djm1mbhd" path="res://scenes/Test_ground.tscn" id="2_f8ubp"]
+
+[node name="Main" type="Node"]
+
+[node name="BasePlayer" parent="." instance=ExtResource("1_ef6kw")]
+floor_constant_speed = true
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_f8ubp")]
