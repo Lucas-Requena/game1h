@@ -1,9 +1,9 @@
 [gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cxlj211peo6gw"]
 
-[ext_resource type="Texture2D" uid="uid://bc3eigepbxvw8" path="res://Maps1/mainlevbuild.png" id="1_a3ppc"]
+[ext_resource type="Texture2D" uid="uid://bc3eigepbxvw8" path="res://script/mainlevbuild.png" id="1_i6dg8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c53v"]
-texture = ExtResource("1_a3ppc")
+texture = ExtResource("1_i6dg8")
 40:0/0 = 0
 41:0/0 = 0
 42:0/0 = 0
@@ -432,7 +432,6 @@ texture = ExtResource("1_a3ppc")
 40:13/0 = 0
 41:13/0 = 0
 46:13/0 = 0
-47:13/0 = 0
 49:13/0 = 0
 50:13/0 = 0
 52:13/0 = 0
@@ -1028,6 +1027,8 @@ texture = ExtResource("1_a3ppc")
 12:33/0 = 0
 13:33/0 = 0
 14:33/0 = 0
+47:13/next_alternative_id = 2
+47:13/0 = 0
 
 [resource]
 sources/2 = SubResource("TileSetAtlasSource_4c53v")
